@@ -4,7 +4,7 @@ const router = express.Router();
 const authController = require('../controllers/authController');
 const auth = require('../middleware/auth');
 
-// Iniciar Sesión.
+// Iniciar Sesión
 // api/auth
 router.post('/',
     authController.autenticarUsuario
